@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    padding: 15px 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header nav{
+    display: flex;
+    gap: 30px;
+
+}
+
+header nav a{
+    font-size: 15px;
+    color: grey;
+}
+
+header div a{
+    font-size: 17px;
+    color: black;
+    padding: 5px 8px;
+    border: 1px solid black;
+    transition: 1s;
+    
+}
+
+
+
+header div a:hover{
+    background-color: darkorange;
+    color: white;
+
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.air{
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.air p{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.air p b{
+    font-size: 85px;
+    font-weight: 700;
+    color: darkorange;
+}
+
+.air p a{
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+    padding: 5px 65px;
+    border: 1px solid black;
+    transition: 0.5s;
+
+
+}
+
+.air p a:hover{
+    background-color: darkorange;
+    color: white; 
+
+}
+
+.air article{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.air article span img{
+    transform: rotate(-20deg) scaleX(-1);
+}
+
+.air article div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.air article div img{
+    width: 65px;
+    height: 65px;
+    padding: 15px;
+    border: 1px solid grey;
+    
+}
+
+   
+
+
+
+.category{
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.category h1{
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 40px;
+    
+}
+
+.category article{
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.category article div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.category article span{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.category article div img{
+    padding: 25px;
+    border: 2px solid rgb(163, 160, 160);
+}
+
+.category article span img{
+    padding: 25px;
+    border: 2px solid rgb(163, 160, 160);
+}
+
+.order{
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.order h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.order article{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(180, 180, 180);
+    margin: 30px;
+    padding: 30px 30x;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.order article div{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+   gap: 20px;
+}
+
+.order article div nav{
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    padding: 5px 35px;
+    border: 1px solid rgb(80, 78, 78);
+    
+}
+
+.order article div nav a{
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+}
+
+.order article p{
+    width: 40%;
+    height: fit-content;
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.order article p b{
+   color: darkorange;
+
+}
+.order article p a{
+    width: 27%;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(238, 132, 3);
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+.order article p a:hover{
+    background-color:  rgb(180, 180, 180);
+    color:  rgb(238, 132, 3) ;
+}
+
+.contact{
+    width: 100%;
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.contact article{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact article div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.contact article div p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact article div p b{
+    font-size: 20px;
+    color: darkorange;
+}
+
+
+footer{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(189, 186, 186);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    font-size: 12px;
+    color: white;
+}
+
